@@ -1,6 +1,6 @@
 body {
     border: 2px solid RGBA(230, 230, 230, 1);
-    margin: 30px;
+    margin: 70px;
 }
 
 h1 {
@@ -17,6 +17,8 @@ h2 {
     color: RGBA(183, 183, 183, 1);
     margin-top: 0px;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .title {
@@ -75,11 +77,12 @@ nav a {
     color: RGBA(127, 127, 127, 1);
 }
 
-#montreal {
+#beach {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.5;
+    opacity: 0.7;
+    margin-top: 80px;
     
 }
 
@@ -91,6 +94,15 @@ p {
    color: RGBA(127, 127, 127, 1);
    line-height: 157%;
 }
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+
 		
 	
 
